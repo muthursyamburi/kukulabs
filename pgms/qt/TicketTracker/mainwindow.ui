@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ticket Tracker - By Dilip S Muthukurussimana</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTracker_Menu">
+    <property name="title">
+     <string>Tracker Menu</string>
+    </property>
+    <addaction name="actionTicket_Details"/>
+   </widget>
+   <widget class="QMenu" name="menuMaster_Data">
+    <property name="title">
+     <string>Master Data</string>
+    </property>
+    <addaction name="actionUser_Management"/>
+    <addaction name="actionTracker_Master_DB"/>
+   </widget>
+   <addaction name="menuTracker_Menu"/>
+   <addaction name="menuMaster_Data"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionTicket_Details"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionUser_Management">
+   <property name="text">
+    <string>User Management</string>
+   </property>
+  </action>
+  <action name="actionTracker_Master_DB">
+   <property name="text">
+    <string>Tracker Master DB</string>
+   </property>
+  </action>
+  <action name="actionTicket_Details">
+   <property name="text">
+    <string>Ticket Details</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
