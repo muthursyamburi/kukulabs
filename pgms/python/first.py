@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import wx
 
 class MainWindow(wx.Frame):
