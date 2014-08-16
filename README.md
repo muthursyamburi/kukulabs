@@ -7,11 +7,15 @@ Instructions for the Developers
 #1. One time activities:
     Open a command prompt and goto your base directory, say C:\bluemix
 
+    # Create a local directory
+    mkdir Android
+    cd Android
+    
     # Initializes the git repo
     git init
 
     # Clone from the remote location
-    git clone https://hub.jazz.net/git/dmuthuku/ItemLowestPrice_POC
+    git clone git clone https://github.com/muthursyamburi/kukulabs/
     
 
 #2. Daily activities:
@@ -29,13 +33,13 @@ Everyday before you start, you first need to get all the changes there in the re
     git remote -v
 
     # If there is nothing like that, add the 'origin' remote
-    git remote add origin https://hub.jazz.net/git/dmuthuku/ItemLowestPrice_POC
+    git remote add origin https://github.com/muthursyamburi/kukulabs/android
 
     # Sets the remote URL
-    git remote set-url origin https://hub.jazz.net/git/dmuthuku/ItemLowestPrice_POC
+    git remote set-url origin https://github.com/muthursyamburi/kukulabs/android
 
     # Goto the local directory where all the source code is there
-    cd ItemLowestPrice_POC
+    cd android
 
     # Pull all the changes from remote to make the local and remote in sync
     git pull origin master
