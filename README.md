@@ -15,7 +15,7 @@ Instructions for the Developers
     git init
 
     # Clone from the remote location
-    git clone git clone https://github.com/muthursyamburi/kukulabs/
+    git clone https://github.com/muthursyamburi/kukulabs/tree/master/pgms/android
     
 
 #2. Daily activities:
@@ -33,10 +33,10 @@ Everyday before you start, you first need to get all the changes there in the re
     git remote -v
 
     # If there is nothing like that, add the 'origin' remote
-    git remote add origin https://github.com/muthursyamburi/kukulabs/android
+    git remote add origin https://github.com/muthursyamburi/kukulabs/tree/master/pgms/android
 
     # Sets the remote URL
-    git remote set-url origin https://github.com/muthursyamburi/kukulabs/android
+    git remote set-url origin https://github.com/muthursyamburi/kukulabs/tree/master/pgms/android
 
     # Goto the local directory where all the source code is there
     cd android
