@@ -12,6 +12,7 @@ Instructions for the Developers
 
     # Clone from the remote location
     git clone https://hub.jazz.net/git/dmuthuku/ItemLowestPrice_POC
+    
 2. Daily activities:
 Everyday before you start, you first need to get all the changes there in the remote. Follow the below steps for the same:
 
@@ -37,6 +38,7 @@ Everyday before you start, you first need to get all the changes there in the re
 
     # Pull all the changes from remote to make the local and remote in sync
     git pull origin master
+    
 3. Usual Coding and Checking-In activities:
 This happens through the day while you are working with the code.
 
