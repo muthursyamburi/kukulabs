@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Version Naming
+    Ver: major.minor.dev_stage.revision
+    Development Stages
+               a -> Alpha
+               b -> Beta
+               c -> release Candidate
+               d -> proDuction
+     -->
+    <string name="app_name">FuelEfficiency 0.0.a.1</string>
+</resources>

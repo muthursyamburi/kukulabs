@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuelEfficiencyCalculator</string>
+    <string name="hello_world">This is too cool!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
