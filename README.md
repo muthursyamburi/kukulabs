@@ -4,7 +4,7 @@ kukulabs
 This is a collection of all of my personal projects that I am working on or plan to start. KuKu stands for Kunjumani &amp; Kunjunni, names of my sweet little kids :).
 
 Instructions for the Developers
-1. One time activities:
+#1. One time activities:
     Open a command prompt and goto your base directory, say C:\bluemix
 
     # Initializes the git repo
@@ -13,7 +13,8 @@ Instructions for the Developers
     # Clone from the remote location
     git clone https://hub.jazz.net/git/dmuthuku/ItemLowestPrice_POC
     
-2. Daily activities:
+
+#2. Daily activities:
 Everyday before you start, you first need to get all the changes there in the remote. Follow the below steps for the same:
 
     # Specify the credential store location
