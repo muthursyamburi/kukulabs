@@ -40,7 +40,7 @@ Everyday before you start, you first need to get all the changes there in the re
     # Pull all the changes from remote to make the local and remote in sync
     git pull origin master
     
-3. Usual Coding and Checking-In activities:
+#3. Usual Coding and Checking-In activities:
 This happens through the day while you are working with the code.
 
     #---------------------------------------------------------------------------------
@@ -57,5 +57,7 @@ This happens through the day while you are working with the code.
 
     # Now you are pushing it to the remote master so that everybody can get the changes
     git push origin master
+
+
 Thats all folks!!!
 
