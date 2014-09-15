@@ -5,8 +5,9 @@ This is a collection of all of my personal projects that I am working on or plan
 
 Instructions for the Developers
 #1. One time activities:
-    Open a command prompt and goto your base directory, say C:\bluemix
-
+    # Open a command prompt and goto your base directory, say C:\Dilip
+    cd C:\Dilip
+    
     # Initializes the git repo
     git init
 
